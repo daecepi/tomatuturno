@@ -1,0 +1,22 @@
+Usuario para el que matricula:
+admin
+Matriculador
+
+Usuario para los estudiantes:
+estudiante
+PedireTurno
+
+Para importar usuarios (haz esta consulta):
+# Privilegios para `admin`@`%`
+
+GRANT SELECT, UPDATE, DELETE ON *.* TO 'admin'@'%' IDENTIFIED BY PASSWORD '*CEC011FD87E72C6B1479F451456E99810E5BE3D9';
+
+GRANT SELECT, UPDATE, DELETE ON `pide_turno`.* TO 'admin'@'%';
+
+
+# Privilegios para `estudiante`@`%`
+
+GRANT INSERT, DELETE ON *.* TO 'estudiante'@'%' IDENTIFIED BY PASSWORD '*7EF331176FC8264DA5E047C408E6F40B9783CCA2';
+
+GRANT INSERT, DELETE ON `pide_turno`.* TO 'estudiante'@'%';
+

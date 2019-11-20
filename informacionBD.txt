@@ -1,0 +1,15 @@
+tomatutu_user
+Metausuario32
+
+
+107.6.141.114
+
+$host = "107.6.141.114";
+		$usuario = "tomatutu_user";
+		$password = "Metausuario32";
+		$BaseDatos = "tomatutu_pide_turno";
+
+$host = "localhost";
+		$usuario = "root";
+		$password = "";
+		$BaseDatos = "pide_turno";

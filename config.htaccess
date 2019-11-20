@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /MIPROYECTO_PHP/
+RewriteRule ^/$ index.php [L]
+RewriteRule ^javier/$ clientes/10/javier.php [L]
+RewriteRule ^cisnes/$ animales/aves/anseriformes/anatidae/cisnes.php [L]
